@@ -137,7 +137,21 @@ df_cleaned
 <img width="143" height="610" alt="image" src="https://github.com/user-attachments/assets/7c1cca0c-4bc3-4096-bbc9-92e87662bb11" />
 
 
+# Interpretation
 
+1. The given dataset was loaded and its information was analyzed using Pandas.
+
+2. Missing values were identified and handled using constant value, forward fill, backward fill, mean and dropna() methods.
+
+3. The cleaned data was saved into a CSV file.
+
+4. Outliers were detected using Boxplot and Scatterplot visualizations.
+
+5. The IQR method was used to identify and remove outliers from the Iris dataset.
+
+6. The Z-score method was applied with a threshold value of 3 to detect and remove outliers.
+
+7. Thus, different data cleaning techniques were performed to improve data quality.
 
 
 # Result
